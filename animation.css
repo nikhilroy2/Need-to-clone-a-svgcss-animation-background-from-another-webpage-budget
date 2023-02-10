@@ -14,6 +14,11 @@ body {
   position: absolute;
   top: 0;
   left: 0;
+  z-index: -1;
+  pointer-events: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 .animated-wrapper .qodef-background-svg-893 {
   --qodef--gradient-color-stop-1: #F6502EA1;

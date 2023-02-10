@@ -14,6 +14,9 @@ body {
     position: absolute;
     top: 0;
     left: 0;
+    z-index: -1;
+    pointer-events: none;
+    user-select: none;
     // overflow: hidden;
     .qodef-background-svg-893 {
         --qodef--gradient-color-stop-1: #F6502EA1;
@@ -24,7 +27,9 @@ body {
             top: 200px;
         }
     }
-
+    .partial_svg_color_plus{
+        
+    }
     .qodef-svg--gradient-radial {
         position: absolute;
         left: 0;
