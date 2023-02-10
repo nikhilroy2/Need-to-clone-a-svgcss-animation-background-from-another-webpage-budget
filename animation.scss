@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.animated-wrapper {
+    background: #eeeae7;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    // overflow: hidden;
+    .qodef-background-svg-893 {
+        --qodef--gradient-color-stop-1: #F6502EA1;
+        --qodef--gradient-color-stop-2: #F6502EA1;
+        top: -600px;
+
+        @media only screen and (max-width: 1440px) {
+            top: 200px;
+        }
+    }
+
+    .qodef-svg--gradient-radial {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: auto;
+        overflow: visible;
+    }
+
+    .qodef-background-svg.qodef--predefined .qodef-m-svg {
+        width: 70vw;
+    }
+}
